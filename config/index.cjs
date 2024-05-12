@@ -32,9 +32,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '雪宝',  
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o3LBk6doMiyQWscOpq8Kkh7MFSxw',
+      id: 'o3LBk6S6yI-HYvPwvi7dqKlMgjzY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'FVzZvj06UN-Uf2nCAnRhZAKh7M1iuBGO3XWO0H4nqoM',
+      useTemplateId: 'MMSr2y5lfwbFQX6oyhnO3HoMye2aiooXs-0G2ojnTFg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11.24',
       festivals: [
