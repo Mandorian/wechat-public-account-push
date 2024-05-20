@@ -14,6 +14,15 @@ const USER_CONFIG = {
   APP_SECRET: '44d0fbaab13278639727694327fdeab8',
   
   TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: '95ed0378d85aa6459f14e0c79f5d18c3',
+
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
+  
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 3,
+  },
   
   PROVINCE: '山东',
   CITY: '东营',
@@ -51,16 +60,16 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  // CALLBACK_TEMPLATE_ID: 'jCfLmz8iWl7shQt-2O3w6MMF7NLZfX-ZiZ_x0LQQFKI',
+  CALLBACK_TEMPLATE_ID: 'jCfLmz8iWl7shQt-2O3w6MMF7NLZfX-ZiZ_x0LQQFKI',
 
-  // CALLBACK_USERS: [
-  //   {
-  //     name: '自己',
-  //     // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-  //     id: 'o3LBk6S6yI-HYvPwvi7dqKlMgjzY',
-  //   }
-  // ],
+  CALLBACK_USERS: [
+    {
+      name: '自己',
+      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o3LBk6S6yI-HYvPwvi7dqKlMgjzY',
+    }
+  ],
 
 }
-    module.exports = USER_CONFIG
 
+module.exports = USER_CONFIG
