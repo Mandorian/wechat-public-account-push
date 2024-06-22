@@ -16,9 +16,6 @@ const USER_CONFIG = {
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: '95ed0378d85aa6459f14e0c79f5d18c3',
-
-    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
   
     // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: 3,
